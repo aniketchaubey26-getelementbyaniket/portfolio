@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Feedback</title>
+</head>
+<body>
+      <!-- Page Title -->
+
+        <center><h1>Feedback Page</h1></center>
+
+         <!-- Navigation -->
+  <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="Courses.html">Courses</a></li>
+      <li><a href="grades.html">Grades</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="Contact Us.html">Contact Us</a></li>   
+    </ul>
+  </nav>
+
+ 
+
+  <!-- Feedback Form -->
+  <form >
+    <!-- Header -->
+     <header><h2>Feedback Form</h2></header>
+    
+     <!-- Name -->
+     <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- Dropdown List -->
+    <label for="type">Feedback Type:</label>
+    <select id="type" name="type">
+      <option value="general">General</option>
+      <option value="bug">Bug Report</option>
+      <option value="feature">Feature Request</option>
+    </select><br><br>
+
+    <!-- Rating -->
+    <label>Skills Rating:</label><br>
+    <input type="radio" id="excellent" name="rating" value="excellent">
+    <label for="excellent">Excellent</label><br>
+    <input type="radio" id="good" name="rating" value="good">
+    <label for="good">Good</label><br>
+    <input type="radio" id="fair" name="rating" value="fair">
+    <label for="fair">Fair</label><br>
+    <input type="radio" id="poor" name="rating" value="poor">
+    <label for="poor">Poor</label><br><br>
+
+    <!-- Subscribe -->
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Subscribe to updates</label><br><br>
+
+    <!-- Feedback Message -->
+    <label for="message">Your Feedback:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
